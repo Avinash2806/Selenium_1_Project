@@ -198,4 +198,9 @@ public class CommonFunction {
 		WebDriverWait wait = new WebDriverWait(driver, 90);
 		wait.until(ExpectedConditions.invisibilityOf(element));
 	}
+	
+	public void blankFunction(){
+		System.out.println("This is a blank function");
+	}
+	
 }
