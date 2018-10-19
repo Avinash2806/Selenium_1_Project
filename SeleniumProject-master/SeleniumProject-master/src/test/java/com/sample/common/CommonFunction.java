@@ -43,6 +43,10 @@ public class CommonFunction {
 	
 	public static WebDriver driver;
 	
+	public void funFunction(){
+		System.out.println("This is a Fun function");
+	}
+	
 	public void getDriver() throws IOException{
 		input = new FileInputStream("./src/test/resources/application.properties");
 		prop.load(input);
@@ -201,6 +205,10 @@ public class CommonFunction {
 	
 	public void blankFunction(){
 		System.out.println("This is a blank function");
+	}
+	
+	public void newFunction(){
+		System.out.println("Hi... This is a new function");
 	}
 	
 }
