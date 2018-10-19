@@ -43,6 +43,10 @@ public class CommonFunction {
 	
 	public static WebDriver driver;
 	
+        public void waitForElement(){
+		System.out.println("waiting for element");
+	}
+
 	public void funFunction(){
 		System.out.println("This is a Fun function");
 	}
@@ -206,6 +210,11 @@ public class CommonFunction {
 	public void blankFunction(){
 		System.out.println("This is a blank function");
 	}
+
+        public void clickElement(){
+		System.out.println("click on element");
+	}
+
 	
 	public void newFunction(){
 		System.out.println("Hi... This is a new function");
