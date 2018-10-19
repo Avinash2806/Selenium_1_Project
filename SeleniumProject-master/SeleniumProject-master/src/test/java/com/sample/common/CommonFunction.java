@@ -47,6 +47,10 @@ public class CommonFunction {
 		System.out.println("waiting for element");
 	}
 
+	public void funFunction(){
+		System.out.println("This is a Fun function");
+	}
+	
 	public void getDriver() throws IOException{
 		input = new FileInputStream("./src/test/resources/application.properties");
 		prop.load(input);
@@ -211,5 +215,9 @@ public class CommonFunction {
 		System.out.println("click on element");
 	}
 
+	
+	public void newFunction(){
+		System.out.println("Hi... This is a new function");
+	}
 	
 }
