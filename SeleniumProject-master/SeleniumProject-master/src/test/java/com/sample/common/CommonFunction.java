@@ -43,6 +43,10 @@ public class CommonFunction {
 	
 	public static WebDriver driver;
 	
+        public void waitForElement(){
+		System.out.println("waiting for element");
+	}
+
 	public void getDriver() throws IOException{
 		input = new FileInputStream("./src/test/resources/application.properties");
 		prop.load(input);
@@ -202,5 +206,10 @@ public class CommonFunction {
 	public void blankFunction(){
 		System.out.println("This is a blank function");
 	}
+
+        public void clickElement(){
+		System.out.println("click on element");
+	}
+
 	
 }
