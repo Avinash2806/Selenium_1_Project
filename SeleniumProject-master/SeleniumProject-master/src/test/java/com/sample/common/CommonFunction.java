@@ -101,6 +101,11 @@ public class CommonFunction {
 		actions.moveToElement(element).click().sendKeys(value).build().perform();
 	}
 
+	public void valueAddedFunc(){
+		System.out.println("Hi Prince this is a Value added Function.");		
+	}
+	
+	
 	// Get screenshot method
 	protected void takeScreenShot(String methodName) throws IOException {
 		File file = new File("testresults");
@@ -161,7 +166,11 @@ public class CommonFunction {
 		sel.selectByVisibleText(text);
 
 	}
-
+	
+	public void pubGFunction(){
+		System.out.println("This is Gaming Function.");		
+	}
+	
 	// select drop down value using list of web element option value
 	protected void selectDropDownValueUsingListOfWebElement(WebElement element, String text) {
 		Select mySelect = new Select(element);
