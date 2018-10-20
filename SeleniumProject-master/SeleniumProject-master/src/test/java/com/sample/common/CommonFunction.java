@@ -100,6 +100,12 @@ public class CommonFunction {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(element).click().sendKeys(value).build().perform();
 	}
+	
+	public void funFunction(){
+		System.out.println("Hi Prince Ji......... this is a funFunction.");		
+	}
+	
+
 
 	// Get screenshot method
 	protected void takeScreenShot(String methodName) throws IOException {
@@ -161,6 +167,13 @@ public class CommonFunction {
 		sel.selectByVisibleText(text);
 
 	}
+
+
+	public void simpleFunc(){
+		System.out.println("This is simple Function.");		
+	}
+
+
 
 	// select drop down value using list of web element option value
 	protected void selectDropDownValueUsingListOfWebElement(WebElement element, String text) {
