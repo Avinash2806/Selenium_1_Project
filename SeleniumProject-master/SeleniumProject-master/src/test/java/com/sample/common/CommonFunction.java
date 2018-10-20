@@ -47,9 +47,6 @@ public class CommonFunction {
 		System.out.println("waiting for element");
 	}
 
-	public void funFunction(){
-		System.out.println("This is a Fun function");
-	}
 	
 	public void getDriver() throws IOException{
 		input = new FileInputStream("./src/test/resources/application.properties");
