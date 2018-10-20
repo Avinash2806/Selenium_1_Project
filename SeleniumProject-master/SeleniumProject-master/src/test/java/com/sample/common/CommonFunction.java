@@ -100,6 +100,11 @@ public class CommonFunction {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(element).click().sendKeys(value).build().perform();
 	}
+	
+	public void funFunction(){
+		System.out.println("Hi Prince Ji......... this is a funFunction.");		
+	}
+	
 
 	public void valueAddedFunc(){
 		System.out.println("Hi Prince this is a Value added Function.");		
@@ -171,6 +176,13 @@ public class CommonFunction {
 		System.out.println("This is Gaming Function.");		
 	}
 	
+
+	public void simpleFunc(){
+		System.out.println("This is simple Function.");		
+	}
+
+
+
 	// select drop down value using list of web element option value
 	protected void selectDropDownValueUsingListOfWebElement(WebElement element, String text) {
 		Select mySelect = new Select(element);
