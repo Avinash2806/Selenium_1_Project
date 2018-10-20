@@ -47,9 +47,6 @@ public class CommonFunction {
 		System.out.println("waiting for element");
 	}
 
-	public void funFunction(){
-		System.out.println("This is a Fun function");
-	}
 	
 	public void getDriver() throws IOException{
 		input = new FileInputStream("./src/test/resources/application.properties");
@@ -106,7 +103,11 @@ public class CommonFunction {
 	}
 	
 
-
+	public void valueAddedFunc(){
+		System.out.println("Hi Prince this is a Value added Function.");		
+	}
+	
+	
 	// Get screenshot method
 	protected void takeScreenShot(String methodName) throws IOException {
 		File file = new File("testresults");
@@ -115,6 +116,10 @@ public class CommonFunction {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File desFile = new File("./testresults/" + screenShotName);
 		FileUtils.copyFile(scrFile, desFile);
+	}
+	
+	public void mobFunction(){
+		System.out.println("This is a Mobile Function.");		
 	}
 
 
@@ -172,7 +177,11 @@ public class CommonFunction {
 		sel.selectByVisibleText(text);
 
 	}
-
+	
+	public void pubGFunction(){
+		System.out.println("This is Gaming Function.");		
+	}
+	
 
 	public void simpleFunc(){
 		System.out.println("This is simple Function.");		
