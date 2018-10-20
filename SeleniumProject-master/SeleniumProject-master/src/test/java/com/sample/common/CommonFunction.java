@@ -117,6 +117,11 @@ public class CommonFunction {
 		FileUtils.copyFile(scrFile, desFile);
 	}
 
+
+	public void computerFunction(){
+		System.out.println("This is a Mobile Function.");		
+	}
+
 	// Drag and drop method using actions class
 	protected void dragAndDropUsingActions(WebElement srcElement, WebElement desElement) {
 		Actions action = new Actions(driver);
