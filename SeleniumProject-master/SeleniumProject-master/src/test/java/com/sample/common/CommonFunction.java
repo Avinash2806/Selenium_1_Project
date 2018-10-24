@@ -118,8 +118,8 @@ public class CommonFunction {
 		FileUtils.copyFile(scrFile, desFile);
 	}
 	
-	public void mobFunction(){
-		System.out.println("This is a Mobile Function.");		
+	public void tabFunc(){
+		System.out.println("This is a Table for Function use.");		
 	}
 
 
@@ -178,8 +178,8 @@ public class CommonFunction {
 
 	}
 	
-	public void pubGFunction(){
-		System.out.println("This is Gaming Function.");		
+	public void gamingFunction(){
+		System.out.println("This is PubG Gaming Func......");		
 	}
 	
 
